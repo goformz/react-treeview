@@ -25,11 +25,12 @@ The CSS file:
 ## API
 
 #### &lt;TreeView />
-The component accepts [three props](https://github.com/chenglou/react-treeview/blob/07132c6ad33a7b94d479eae60e84a0f02b2126da/src/react-treeview.jsx#L5-L7).
+The component accepts [four props](https://github.com/chenglou/react-treeview/blob/07132c6ad33a7b94d479eae60e84a0f02b2126da/src/react-treeview.jsx#L5-L7).
 
 - `collapsed`: whether the node is collapsed or not.
 - `defaultCollapsed`: the [uncontrolled](http://facebook.github.io/react/docs/forms.html#uncontrolled-components) equivalent to `collapsed`.
 - `nodeLabel`: the component or string (or anything renderable) that's displayed beside the TreeView arrow.
+- `itemClassName`: an optional class to add the the tree-view_item element.
 
 TreeViews can be naturally nested.
 
